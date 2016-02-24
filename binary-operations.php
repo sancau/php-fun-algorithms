@@ -3,7 +3,7 @@
 $array1 = array_reverse(str_split($some_array_as_string));
 $array2 = array_reverse(str_split($some_array_as_string));
 
-//Делаем 16 разрядов, чтобы в последствии оперировать с числами одинаковой разрядности.
+//Делаем 16 разрядов, чтобы в последствии оперировать с числами одинаковой разрядности
 
 function make16bit($array) {
 	for ($i = count($array); $i < 16; $i++) {
